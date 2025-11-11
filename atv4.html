@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto sobre imagem escurecida</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://lh3.googleusercontent.com/drive-storage/AJQWtBOOzljj6ZuILlyO89j8AENFxICoLv_D-7YOR7QJbjbqW10wzOaTiJ43S2VM2ATTPxZGwMc0Jz6tQPO6NiUtV6U42dDYH2F1rH8D4hCg0GsJXg=w1920-h945?auditContext=forDisplay') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .caixa {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.55);
+            color: red;
+            padding: 40px;
+            width: 80%;
+            max-width: 900px;
+            font-size: 2em;
+            line-height: 1.5;
+            text-align: justify;
+            border: 3px solid black;
+            border-radius: 0px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+        }
+        
+        .caixa:hover {
+            box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+            background-color: rgba(0, 0, 0, 0.65);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caixa">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat cupiditate facere cumque ratione odio doloremque deserunt dignissimos sunt eum alias voluptatum repellendus, quis, dolores perspiciatis enim vero nam quisquam possimus.
+    </div>
+
+</body>
+
+</html>
